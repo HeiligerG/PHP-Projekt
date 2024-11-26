@@ -1,0 +1,73 @@
+# Logs und Debugging
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# OS-spezifische Dateien
+.DS_Store
+Thumbs.db
+
+# Node.js (falls Tailwind mit npm/yarn genutzt wird)
+node_modules/
+package-lock.json
+yarn.lock
+
+# Compilierte CSS-Dateien (Tailwind)
+public/css/
+*.css.map
+
+# Build-Dateien
+dist/
+build/
+
+# PHP spezifisch
+*.cache
+*.phar
+vendor/
+
+# Lokale Umgebungsdateien
+.env
+.env.local
+.env.*.local
+
+# MySQL Dumps oder temporäre Datenbanken
+*.sql
+*.sql.gz
+*.sqlite
+
+# Apache spezifisch
+.htaccess~
+.htpasswd
+
+# IDEs und Editoren
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+*.code-workspace
+
+# Temporary/System Files
+*.tmp
+*.temp
+*.bak
+*.swp
+*.swo
+
+# Test und Debugging
+coverage/
+tests/results/
+.phpunit.result.cache
+*.coverage
+
+# Tailwind config cache
+tailwind.config.js
+
+# Lokale Dateien für Datenbankverbindung oder Caching
+database/*.db
+database/*.cache
+
+# Backup Dateien
+*.bak
+*.old
+*.orig
