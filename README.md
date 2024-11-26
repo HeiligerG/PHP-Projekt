@@ -1,7 +1,3 @@
-Hier ist das **README.md**-File für deine Web-App in Version 1.0:
-
----
-
 # **Web App** 📝 | Version 1.0  
 
 Ein kompakter, sauber designter Blog mit umfassender Funktionalität, Sicherheit und einer klaren Roadmap für zukünftige Features.
