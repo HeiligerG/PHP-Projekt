@@ -109,7 +109,7 @@ Alle experimentellen Änderungen im `WorkingDir` folgen den gleichen Sicherheits
 
 **E-Mail:** devholyg@gmail.com 
 
-**Projekt Link:** [https://github.com/HeiligerG/holy-ai-prompts](https://github.com/HeiligerG/PHP-Projekt/WorkingDir)
+**Projekt Link:** [WorkingDir](https://github.com/HeiligerG/PHP-Projekt/WorkingDir)
 
 ---
 
