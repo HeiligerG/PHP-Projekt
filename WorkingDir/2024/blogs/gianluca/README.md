@@ -8,7 +8,7 @@ Ein Entwicklungsbereich für experimentelle Änderungen und kleinere Updates. Di
 1. [Überblick](#überblick)
 2. [Features und Änderungen](#features-und-änderungen)
    - [Aktuelle Änderungen](#aktuelle-änderungen)
-   - [Vergangene Änderungen](#vergange-änderungen)
+   - [Vergangene Änderungen](#vergangene-änderungen)
 3. [Ideensammlung](#ideensammlung)
 4. [Technologien](#technologien)
 5. [Sicherheit](#sicherheit)
@@ -26,18 +26,18 @@ Das `WorkingDir` dient als Entwicklungsumgebung für das Projekt. Hier werden ne
 ### **Aktuelle Änderungen**
 > Änderungen der letzten Tage – fortlaufend aktualisiert.
 
+---
+
+### **Vergangene Änderungen**
+> Abgeschlossene Änderungen, die dokumentiert bleiben sollen.
+
 - **[27.11.2024]**
   - **Fix:** Register/Login-Link in der `login/Register`-Ansicht korrigiert.
   - **Update:** BLJ Blog Sidebar-Script entfernt.
     - **Neu:** Nach Jahrgang filtern (`NOT NULL`).
     - Erweiterungsidee: 3D-Sidebars, die Jahrgänge durchblättern.
   - **Fix:** Bild-URL in der `Post View` korrigiert.
-
----
-
-### **Vergangene Änderungen**
-> Abgeschlossene Änderungen, die dokumentiert bleiben sollen.
-
+    
 ---
 
 ## **Ideensammlung**
