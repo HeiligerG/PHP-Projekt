@@ -109,8 +109,6 @@ Alle experimentellen Änderungen im `WorkingDir` folgen den gleichen Sicherheits
 
 **E-Mail:** devholyg@gmail.com 
 
-**Projekt Link:** [WorkingDir](https://github.com/HeiligerG/PHP-Projekt/WorkingDir)
-
 ---
 
 <div align="center">
