@@ -105,8 +105,10 @@ Alle experimentellen Änderungen im `WorkingDir` folgen den gleichen Sicherheits
     
 ## **Kontakt**
 
-**Twitter** - [@The_Real_HolyG](https://twitter.com/the_real_holyg)
+**Twitter** - [@The_Real_HolyG](https://twitter.com/the_real_holyg
+
 **E-Mail:** devholyg@gmail.com 
+
 **Projekt Link:** [https://github.com/HeiligerG/holy-ai-prompts](https://github.com/HeiligerG/holy-ai-prompts)
 
 ---
