@@ -27,7 +27,7 @@ include __DIR__ . '/../../layouts/header.php';
                 </svg>
                 <h2 class="text-xl font-semibold mb-2">Keine Beiträge vorhanden</h2>
                 <p class="text-slate-400 mb-4">Sie haben noch keine Blog-Beiträge erstellt.</p>
-                <a href="/2024/blogs/gianluca/posts/create"
+                <a href="/PHP-Projekt/WorkingDir/2024/blogs/gianluca/posts/create"
                    class="inline-flex items-center px-4 py-2 bg-primary-600 text-white rounded-lg hover:bg-primary-700 transition-colors">
                     <svg class="w-5 h-5 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 4v16m8-8H4"/>
@@ -40,7 +40,7 @@ include __DIR__ . '/../../layouts/header.php';
                 <?php foreach ($posts as $post): ?>
                     <article class="bg-slate-800 rounded-lg shadow-lg overflow-hidden hover:shadow-xl transition-all duration-300">
                         <?php if ($post['image_url']): ?>
-                            <a href="/2024/blogs/gianluca/post/<?php echo $post['id']; ?>"
+                            <a href="/PHP-Projekt/WorkingDir/2024/blogs/gianluca/post/<?php echo $post['id']; ?>"
                                class="block aspect-video overflow-hidden">
                                 <img src="<?php echo htmlspecialchars($post['image_url']); ?>"
                                      alt="<?php echo htmlspecialchars($post['title']); ?>"
@@ -50,7 +50,7 @@ include __DIR__ . '/../../layouts/header.php';
 
                         <div class="p-6">
                             <h2 class="text-xl font-bold mb-2">
-                                <a href="/2024/blogs/gianluca/post/<?php echo $post['id']; ?>"
+                                <a href="/PHP-Projekt/WorkingDir/2024/blogs/gianluca/post/<?php echo $post['id']; ?>"
                                    class="hover:text-primary-400 transition-colors">
                                     <?php echo htmlspecialchars($post['title']); ?>
                                 </a>
@@ -76,7 +76,7 @@ include __DIR__ . '/../../layouts/header.php';
                             </div>
 
                             <div class="mt-4 pt-4 border-t border-slate-700 flex justify-between">
-                                <a href="/2024/blogs/gianluca/posts/edit/<?php echo $post['id']; ?>"
+                                <a href="/PHP-Projekt/WorkingDir/2024/blogs/gianluca/posts/edit/<?php echo $post['id']; ?>"
                                    class="text-primary-400 hover:text-primary-300 flex items-center">
                                     <svg class="w-4 h-4 mr-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                                         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
@@ -103,7 +103,7 @@ include __DIR__ . '/../../layouts/header.php';
     <script>
         function deletePost(postId) {
             if (confirm('M\u00F6chten Sie diesen Beitrag wirklich l\u00F6schen?')) {
-                fetch(`/2024/blogs/gianluca/api/posts/${postId}`, {
+                fetch(`/PHP-Projekt/WorkingDir/2024/blogs/gianluca/api/posts/${postId}`, {
                     method: 'DELETE',
                     credentials: 'same-origin'
                 })

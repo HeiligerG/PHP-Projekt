@@ -57,7 +57,7 @@ include __DIR__ . '/../../layouts/header.php';
 
         <p class="mt-4 text-center text-sm text-slate-400">
             Noch kein Konto?
-            <a href="/2024/blogs/gianluca/auth/register" class="text-primary-400 hover:text-primary-300">
+            <a href="/PHP-Projekt/WorkingDir/2024/blogs/gianluca/register" class="text-primary-400 hover:text-primary-300">
                 Jetzt registrieren
             </a>
         </p>

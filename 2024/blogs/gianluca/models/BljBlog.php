@@ -11,12 +11,16 @@ class BljBlog {
     }
 
     public function getAllBlogs() {
-        $query = "SELECT blog_von as student_name, 
-                        blog_url, 
-                        jahr as class_year,
-                        TRUE as is_active 
-        FROM blogs WHERE blog_url != '???' AND jahr IS NOT NULL
-        ORDER BY blog_von ASC";
+        $query = "SELECT 
+                  blog_von as student_name, 
+                  blog_url, 
+                  jahr as class_year,
+                  TRUE as is_active 
+              FROM blogs 
+              WHERE blog_von NOT LIKE '%<%' 
+              AND blog_url != '???' 
+              AND jahr = '2024'
+              ORDER BY blog_von ASC";
         $stmt = $this->db->prepare($query);
         $stmt->execute();
         return $stmt->fetchAll(PDO::FETCH_ASSOC);
