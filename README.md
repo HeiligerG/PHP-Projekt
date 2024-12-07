@@ -1,4 +1,4 @@
-# **Web App** 📝 | Version 1.0  
+# **Web App** 📝 | Version 1.0.1
 
 Ein kompakter, sauber designter Blog mit umfassender Funktionalität, Sicherheit und einer klaren Roadmap für zukünftige Features.
 
@@ -6,7 +6,7 @@ Ein kompakter, sauber designter Blog mit umfassender Funktionalität, Sicherheit
 
 ## **Inhaltsverzeichnis**
 1. [Überblick](#überblick)
-2. [Features in Version 1.0](#features-in-version-10)
+2. [Features in Version 1.0.1](#features-in-version-10)
 3. [Technologien](#technologien)
 4. [Sicherheit](#sicherheit)
 5. [Datenbankstruktur](#datenbankstruktur)
@@ -21,7 +21,7 @@ Diese Web-App ist eine Blogging-Plattform, die benutzerfreundlich, sicher und fu
 
 ---
 
-## **Features in Version 1.0**
+## **Features in Version 1.0.1**
 
 ### **Design**
 - 🌑 **Dunkel, kompakt, sauber:** Modernes Design mit einfacher Bedienbarkeit.
@@ -30,6 +30,7 @@ Diese Web-App ist eine Blogging-Plattform, die benutzerfreundlich, sicher und fu
 - 🖋️ **Blog-Interaktion:**
   - Beiträge erstellen, bearbeiten und löschen.
   - Kommentare hinzufügen, bearbeiten und löschen.
+    -Live-Kommentare: Echtzeit-Updates für Kommentare, ohne die Seite neu zu laden.
   - Blog- und Benutzer-Timestamps.
   - Blog-Bewertungssystem (Sternebewertung).
   - **Kein Selbstbewerten:** Benutzer können ihre eigenen Beiträge nicht bewerten.
@@ -74,8 +75,7 @@ Die App verwendet Best Practices für die Sicherheit:
 ---
 
 ## **Bekannte Bugs und Verbesserungen**
-- Einige Fehlernachrichten sind überflüssig und werden in zukünftigen Updates entfernt.
-
+- Im Moment keine...
 ---
 
 ## **Roadmap für zukünftige Versionen**
@@ -89,7 +89,7 @@ Die App verwendet Best Practices für die Sicherheit:
    - Sticky-Header oder Sticky-Burger-Menü.  
    - Verbesserungen der Sidebar auf größeren Bildschirmen.  
 7. **API:** JSON-basierte Schnittstellen (vorbereitet).  
-8. **Dokumentation:** Optionale Erstellung einer vollständigen Dokumentation.  
+8. **Dokumentation:** Optionale Erstellung einer vollständigen Dokumentation. (Teilweise angefangen)
 9. **Video-Stream:** Unterstützt Video-Uploads und Wiedergabe.  
 10. **Follower-System:** Benutzer können sich gegenseitig folgen.  
 11. **Administrator-Konto:** Root-Benutzer für Verwaltung und Moderation.  
