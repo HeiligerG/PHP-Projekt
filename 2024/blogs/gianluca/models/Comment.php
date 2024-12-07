@@ -50,7 +50,7 @@ public function deleteComment($commentId, $userId) {
         }
         return false;
     } catch (PDOException $e) {
-        error_log("Fehler beim Löschen des Kommentars: " . $e->getMessage());
+        error_log("Fehler beim Lï¿½schen des Kommentars: " . $e->getMessage());
         return false;
     }
 }}

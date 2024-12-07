@@ -4,7 +4,7 @@ require_once 'includes/database.php';
 require_once 'includes/functions.php';
 
 $request = $_SERVER['REQUEST_URI'];
-$basePath = '/PHP-Projekt/WorkingDir/2024/blogs/gianluca';
+$basePath = '/PHP-Projekt/2024/blogs/gianluca';
 $request = str_replace($basePath, '', $request);
 
 if (preg_match('/^\/api\/comments\/(\d+)$/', $request, $matches)) {

@@ -1,5 +1,5 @@
 RewriteEngine On
-RewriteBase /PHP-Projekt/WorkingDir/2024/blogs/gianluca/
+RewriteBase /PHP-Projekt/2024/blogs/gianluca/
 
 RewriteCond %{REQUEST_FILENAME} !-f
 RewriteCond %{REQUEST_FILENAME} !-d

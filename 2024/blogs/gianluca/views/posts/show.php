@@ -23,7 +23,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST' && isset($_POST['delete_comment'])) {
     $comment = new Comment();
 
     if ($comment->deleteComment($commentId, $_SESSION['user_id'])) {
-        redirect("/PHP-Projekt/WorkingDir/2024/blogs/gianluca/post/{$postId}");
+        redirect("/PHP-Projekt/2024/blogs/gianluca/post/{$postId}");
     } else {
         $error = 'Beim Löschen ist ein Fehler aufgetreten.';
     }
@@ -115,7 +115,7 @@ include __DIR__ . '/../../layouts/header.php';
             <?php else: ?>
                 <div class="bg-slate-700 rounded-lg p-4 mb-8 text-center">
                     <p class="text-slate-300 mb-2">Melden Sie sich an, um zu kommentieren</p>
-                    <a href="/PHP-Projekt/WorkingDir/2024/blogs/gianluca/login" class="text-primary-400 hover:text-primary-300">
+                    <a href="/PHP-Projekt/2024/blogs/gianluca/login" class="text-primary-400 hover:text-primary-300">
                         Jetzt anmelden
                     </a>
                 </div>
@@ -165,23 +165,33 @@ include __DIR__ . '/../../layouts/header.php';
     </div>
 
     <script>
-function deleteComment(commentId) {
-    if (confirm('M\u00F6chten Sie diesen Kommentar wirklich l\u00F6schen?')) {
-        const formData = new FormData();
-        formData.append('delete_comment', true);
-        formData.append('comment_id', commentId);
-        
-        fetch(window.location.href, {
-            method: 'POST',
-            body: formData,
-            credentials: 'same-origin'
-        })
-        .then(response => response.ok ? location.reload() : alert('Fehler beim L�schen'))
-        .catch(error => {
-            console.error('Error:', error);
-            alert('Fehler beim L\u00F6schen');
-        });
-    }
-}    </script>
+        function deleteComment(commentId) {
+            if (confirm('M\u00F6chten Sie diesen Kommentar wirklich l\u00F6schen?')) {
+                const formData = new FormData();
+                formData.append('delete_comment', true);
+                formData.append('comment_id', commentId);
+
+                fetch(window.location.href, {
+                    method: 'POST',
+                    body: formData,
+                    credentials: 'same-origin'
+                })
+                    .then(response => {
+                        if (response.ok) {
+                            const commentElement = document.getElementById('comment-' + commentId);
+                            if (commentElement) {
+                                commentElement.remove();
+                            }
+                        } else {
+                            alert('Fehler beim L\u00F6schen');
+                        }
+                    })
+                    .catch(error => {
+                        console.error('Error:', error);
+                        alert('Fehler beim L\u00F6schen');
+                    });
+            }
+        }
+    </script>
 
 <?php include __DIR__ . '/../../layouts/footer.php'; ?>

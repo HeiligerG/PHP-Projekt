@@ -19,7 +19,7 @@ include __DIR__ . '/../../layouts/header.php';
                 </svg>
                 <p class="text-slate-400 text-lg">Noch keine Blog-Einträge vorhanden.</p>
                 <?php if (isLoggedIn()): ?>
-                    <a href="/PHP-Projekt/WorkingDir/2024/blogs/gianluca/posts/create"
+                    <a href="/PHP-Projekt/2024/blogs/gianluca/posts/create"
                        class="mt-4 px-6 py-2 bg-primary-600 text-white rounded-lg hover:bg-primary-700 transition-colors">
                         Ersten Beitrag erstellen
                     </a>
@@ -29,7 +29,7 @@ include __DIR__ . '/../../layouts/header.php';
             <?php foreach ($posts as $post): ?>
                 <article class="bg-slate-800 rounded-lg shadow-lg overflow-hidden hover:shadow-xl transition-all duration-300 transform hover:-translate-y-1">
                     <?php if ($post['image_url']): ?>
-                        <a href="/PHP-Projekt/WorkingDir/2024/blogs/gianluca/post/<?php echo $post['id']; ?>" class="block aspect-video overflow-hidden">
+                        <a href="/PHP-Projekt/2024/blogs/gianluca/post/<?php echo $post['id']; ?>" class="block aspect-video overflow-hidden">
                             <img src="<?php echo htmlspecialchars($post['image_url']); ?>"
                                  alt="<?php echo htmlspecialchars($post['title']); ?>"
                                  class="w-full h-full object-cover transition-transform duration-300 hover:scale-105">
@@ -38,7 +38,7 @@ include __DIR__ . '/../../layouts/header.php';
 
                     <div class="p-6">
                         <h2 class="text-xl font-bold mb-2">
-                            <a href="/PHP-Projekt/WorkingDir/2024/blogs/gianluca/post/<?php echo $post['id']; ?>"
+                            <a href="/PHP-Projekt/2024/blogs/gianluca/post/<?php echo $post['id']; ?>"
                                class="hover:text-primary-400 transition-colors">
                                 <?php echo htmlspecialchars($post['title']); ?>
                             </a>
