@@ -17,7 +17,7 @@ Ein kompakter, sauber designter Blog mit umfassender Funktionalität, Sicherheit
 ---
 
 ## **Überblick**
-Diese Web-App ist eine Blogging-Plattform, die benutzerfreundlich, sicher und funktional gestaltet wurde. Sie kombiniert ein minimalistisches Design mit einem Fokus auf Benutzerinteraktion und Sicherheit. Das aktuelle Release (Version 1.0) legt die Basis für eine wachsende Blogging-Community mit vielen geplanten Erweiterungen.
+Diese Web-App ist eine Blogging-Plattform, die benutzerfreundlich, sicher und funktional gestaltet wurde. Sie kombiniert ein minimalistisches Design mit einem Fokus auf Benutzerinteraktion und Sicherheit. Das aktuelle Release (Version 1.0.1) legt die Basis für eine wachsende Blogging-Community mit vielen geplanten Erweiterungen.
 
 ---
 
