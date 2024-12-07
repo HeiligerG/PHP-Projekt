@@ -1,6 +1,3 @@
-### **problems/solved/live-comments.md**
-
-```markdown
 # **Gelöstes Problem: Live-Kommentare**
 
 ---
