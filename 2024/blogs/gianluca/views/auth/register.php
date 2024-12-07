@@ -84,7 +84,7 @@ include __DIR__ . '/../../layouts/header.php';
 
         <p class="mt-4 text-center text-sm text-slate-400">
             Bereits registriert?
-            <a href="/PHP-Projekt/2024/blogs/gianluca/login" class="text-primary-400 hover:text-primary-300">
+            <a href="/2024/blogs/gianluca/login" class="text-primary-400 hover:text-primary-300">
                 Hier anmelden
             </a>
         </p>
