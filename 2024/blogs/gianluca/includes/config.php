@@ -8,7 +8,7 @@ define('DB_NAME', 'd041e_gibarbieri');
 define('DB_USER', 'd041e_gibarbieri'); 
 define('DB_PASS', 'BLJ_db_2024');
 
-define('BASE_URL', '/PHP-Projekt/2024/blogs/gianluca');
+define('BASE_URL', '/2024/blogs/gianluca');
 
 error_reporting(E_ALL);
 ini_set('display_errors', 1);

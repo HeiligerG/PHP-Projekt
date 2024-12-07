@@ -23,7 +23,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST' && isset($_POST['delete_comment'])) {
     $comment = new Comment();
 
     if ($comment->deleteComment($commentId, $_SESSION['user_id'])) {
-        redirect("/PHP-Projekt/2024/blogs/gianluca/post/{$postId}");
+        redirect("/2024/blogs/gianluca/post/{$postId}");
     } else {
         $error = 'Beim Löschen ist ein Fehler aufgetreten.';
     }
@@ -115,7 +115,7 @@ include __DIR__ . '/../../layouts/header.php';
             <?php else: ?>
                 <div class="bg-slate-700 rounded-lg p-4 mb-8 text-center">
                     <p class="text-slate-300 mb-2">Melden Sie sich an, um zu kommentieren</p>
-                    <a href="/PHP-Projekt/2024/blogs/gianluca/login" class="text-primary-400 hover:text-primary-300">
+                    <a href="/2024/blogs/gianluca/login" class="text-primary-400 hover:text-primary-300">
                         Jetzt anmelden
                     </a>
                 </div>
