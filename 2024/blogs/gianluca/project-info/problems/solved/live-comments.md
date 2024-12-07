@@ -127,4 +127,3 @@ Der zweite Ansatz (AJAX ohne Seitenneuladen) hat das Problem erfolgreich gelöst
 ---
 
 *Erstellt am 07.12.2024*
-```
