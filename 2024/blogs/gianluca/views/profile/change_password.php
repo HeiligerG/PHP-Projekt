@@ -124,7 +124,7 @@ include __DIR__ . '/../../layouts/header.php';
                 </div>
 
                 <div class="flex justify-end space-x-4">
-                    <a href="//2024/blogs/gianluca/"
+                    <a href="//PHP-Projekt/2024/blogs/gianluca/"
                        class="px-4 py-2 bg-slate-700 text-white rounded-lg hover:bg-slate-600 transition-colors">
                         Abbrechen
                     </a>

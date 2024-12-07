@@ -51,7 +51,7 @@ $isOwnPost = isLoggedIn() && isset($postData['user_id']) && $postData['user_id']
         </div>
     <?php else: ?>
         <div class="text-center py-2">
-            <a href="/2024/blogs/gianluca/login" class="text-primary-400 hover:text-primary-300">
+            <a href="/PHP-Projekt/2024/blogs/gianluca/login" class="text-primary-400 hover:text-primary-300">
                 Melden Sie sich an, um diesen Beitrag zu bewerten
             </a>
         </div>
@@ -95,7 +95,7 @@ $isOwnPost = isLoggedIn() && isset($postData['user_id']) && $postData['user_id']
     }
 
     function ratePost(postId, rating) {
-        fetch(`/2024/blogs/gianluca/api/ratings`, {
+        fetch(`/PHP-Projekt/2024/blogs/gianluca/api/ratings`, {
             method: 'POST',
             headers: {
                 'Content-Type': 'application/json',

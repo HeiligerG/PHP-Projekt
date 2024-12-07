@@ -25,7 +25,7 @@ include __DIR__ . '/../../layouts/header.php';
                             <a href="<?php echo htmlspecialchars($blog['blog_url']); ?>"
                                target="_blank"
                                class="text-primary-400 hover:text-primary-300">
-                                Blog öffnen ?
+                                Blog &ouml;ffnen
                             </a>
                         </div>
                         <div class="flex justify-between items-center">

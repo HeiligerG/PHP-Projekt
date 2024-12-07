@@ -119,7 +119,7 @@ include __DIR__ . '/../../layouts/header.php';
                 <?php else: ?>
                     <div class="space-y-4">
                         <?php foreach ($userPosts as $post): ?>
-                            <a href="/2024/blogs/gianluca/post/<?php echo $post['id']; ?>"
+                            <a href="/PHP-Projekt/2024/blogs/gianluca/post/<?php echo $post['id']; ?>"
                                class="block bg-slate-700 rounded-lg p-4 hover:bg-slate-600 transition-colors">
                                 <h3 class="font-medium mb-2"><?php echo htmlspecialchars($post['title']); ?></h3>
                                 <div class="text-sm text-slate-400">

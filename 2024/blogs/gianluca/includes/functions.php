@@ -1,6 +1,6 @@
 <?php
 
-define('Base_URL', '/2024/blogs/gianluca');
+define('Base_URL', '/PHP-Projekt/2024/blogs/gianluca');
 
 function redirect($path) {
     header("Location: " . BASE_URL . $path);
@@ -71,7 +71,7 @@ function isLoggedIn() {
 
 function requireLogin() {
     if (!isLoggedIn()) {
-        redirect('/2024/blogs/gianluca/login');
+        redirect('/PHP-Projekt/2024/blogs/gianluca/login');
     }
 }
 
